@@ -5,7 +5,7 @@ angular.module('ideaBank.controllers')
     function($scope, testNgSrv) {
       function init() {
         testNgSrv.load(3)
-          .success(setMessage)
+          .success(setMessage);
       }
 
       function setMessage(data) {
