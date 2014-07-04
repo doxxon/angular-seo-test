@@ -57,7 +57,7 @@ angular.module('ideaBank', [
         .state('page5', {
           url: '/page5',
           templateUrl: 'views/page.html',
-          controller: 'Page4Ctrl'
+          controller: 'Page5Ctrl'
         });
     }
   ]);
